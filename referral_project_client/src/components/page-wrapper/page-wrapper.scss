@@ -1,0 +1,15 @@
+.page-wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 100vh;
+  .footer-menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    a {
+      margin: 0 10px;
+    }
+  }
+}

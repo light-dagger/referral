@@ -1,0 +1,32 @@
+.homepage {
+  .ant-carousel .slick-slide {
+    text-align: center;
+    height: 300px;
+    line-height: 300px;
+    background: #364d79;
+    overflow: hidden;
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  .ant-carousel .slick-slide h3 {
+    color: #fff;
+  }
+  
+  .contents {
+    padding: 1rem;
+    border: 1px solid grey;
+    
+    .sections, .tutors {
+      margin: 1rem 0;
+    }
+    .gutter-box {
+      height: 100%;
+      border: 1px solid grey;
+      padding: 5px 0;
+      text-align: center;
+    }
+  }
+}

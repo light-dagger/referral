@@ -1,0 +1,19 @@
+.header {
+  .ant-layout{
+    background: transparent !important;
+    flex-direction: row;
+    justify-content: space-between;
+    .nav-items {
+      button {
+        margin: 0 5px;
+      }
+    }
+  }
+  .logo{
+    img{
+      height: 55px;
+      width: auto;
+    }
+  }
+
+}
